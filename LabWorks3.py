@@ -4,4 +4,3 @@ b=int(input("enter the breadth"))
 A=(l*h*b)
 print("the volume of cuboid is {} cm\u00b3".format(A))
 
- 
