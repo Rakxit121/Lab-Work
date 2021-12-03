@@ -4,4 +4,4 @@ total = 0
 for i in range(1, 10):
     if ten[i] % 2 != 0:
         total = total + ten[i]
-print("The sum of even number is: ", total)
+print("The sum of odd number is: ", total)
