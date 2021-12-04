@@ -6,5 +6,3 @@ print(" The number of apple divide to tech student is: ", int(d))
 
 t = int(input("To find out the apples remaining apples in the basket is: "))
 
-r = t - k
-print("The remaining apples are: ", int(r))
