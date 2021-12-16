@@ -1,6 +1,17 @@
-# 1
-num = [1500, 2700]
-for i in [1500, 2700]:
-    a=num(i)
-    if a % 2 == 0 and a % 2 == 0:
-       print("the num", a, " is divisible by 7 and is a multiple of 5.")
+# Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included).
+num = [1500, 2701]
+
+a = int(input("enter any number between 1500 to 2700: "))
+
+b = 7
+
+c = 5
+
+for i in num:
+
+    if a % b == 0 and a % c == 0:
+        print("it is both divisible and multiply")
+
+else:
+
+    print("error")
